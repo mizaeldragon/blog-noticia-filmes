@@ -576,9 +576,34 @@ body {
     border: 1px solid #e51d35;
     border-radius: 6px;
   }
+
+
+  .col2 .info-bloco {
+    flex: 1 1 100%;
+  }
 }
 
 /* CSS GERAL  */
+.nossa-rede {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.col2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+/* Blocos internos */
+.col2 .info-bloco {
+  flex: 1 1 45%;
+  /* ocupa ~metade do espaço e quebra se precisar */
+  min-width: 140px;
+}
 
 .input-newsletter {
   margin-left: 20px;
